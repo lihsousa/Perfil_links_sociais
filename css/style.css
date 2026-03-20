@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+    font-weight: 100 900;
+}
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    max-width: 350px;
+    padding: 32px;
+    gap: 24px;
+
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.profile img{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}
+
+.profile h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.location{
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-top: -10px;
+    
+}
+.bio{
+    font-size: 14px;
+    color: hsl(0, 0%, 80%);
+    text-align: center;
+    line-height: 1.5;
+    
+}
+
+.links-list{
+    list-style: none;
+    width: 100%;
+    display: flex ;
+    flex-direction: column;
+    gap: 14px;
+   
+}
+
+
+
+.links a {
+    display: block;
+    width: 100%;
+    
+    text-decoration: none;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+
+    padding: 14px;
+    border-radius: 8px;
+
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
+    
+}
+
+/* HOVER + FOCUS (mesma experiência para mouse e teclado) */
+.links a:hover,
+.links a:focus {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+/* FOCO VISÍVEL (acessibilidade 🔥) */
+.links a:focus {
+    outline: 2px solid hsl(75, 94%, 57%);
+    outline-offset: 3px;
+}
+
+/* CLIQUE (feedback) */
+.links a:active {
+    transform: scale(0.96);
+}
