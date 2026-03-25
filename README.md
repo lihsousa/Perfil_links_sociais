@@ -25,7 +25,7 @@ This is a solution for the **Social Links Profile** challenge from Frontend Ment
 
 ## 🔗 Links
 Solution URL: https://www.frontendmentor.io/profile/lidianofeliciobr
-Live Site URL: https://your-live-site-url.com
+Live Site URL: https://lihsousa.github.io/Perfil_links_sociais/git add .
 
 ---
 
